@@ -1,3 +1,5 @@
+
+var cors = require('cors')
 const Router = require('express')
 const router = Router();
 const {userUploads, getDocument} = require('../controllers/user.controller')
